@@ -1,0 +1,291 @@
+$date
+	Wed Dec 11 12:13:40 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_top $end
+$var wire 21 ! out0 [20:0] $end
+$var reg 20 " in0 [19:0] $end
+$var reg 20 # in1 [19:0] $end
+$var reg 20 $ in2 [19:0] $end
+$var reg 20 % in3 [19:0] $end
+$var reg 20 & in4 [19:0] $end
+$var integer 32 ' file [31:0] $end
+$scope module dut $end
+$var wire 20 ( in0 [19:0] $end
+$var wire 20 ) in1 [19:0] $end
+$var wire 20 * in2 [19:0] $end
+$var wire 20 + in3 [19:0] $end
+$var wire 20 , in4 [19:0] $end
+$var wire 21 - out0 [20:0] $end
+$var wire 21 . layer_0_out_0 [20:0] $end
+$scope module layer_0 $end
+$var wire 20 / add0_term0 [19:0] $end
+$var wire 20 0 in0 [19:0] $end
+$var wire 20 1 in1 [19:0] $end
+$var wire 20 2 in2 [19:0] $end
+$var wire 20 3 in3 [19:0] $end
+$var wire 20 4 in4 [19:0] $end
+$var wire 20 5 out0 [19:0] $end
+$var wire 20 6 mul0_term4 [19:0] $end
+$var wire 20 7 mul0_term3 [19:0] $end
+$var wire 20 8 mul0_term2 [19:0] $end
+$var wire 20 9 mul0_term1 [19:0] $end
+$var wire 20 : mul0_term0 [19:0] $end
+$var wire 20 ; add_bias0 [19:0] $end
+$var wire 20 < add0_term5 [19:0] $end
+$var wire 20 = add0_term4 [19:0] $end
+$var wire 20 > add0_term3 [19:0] $end
+$var wire 20 ? add0_term2 [19:0] $end
+$var wire 20 @ add0_term1 [19:0] $end
+$scope module add_inst_add0_term1 $end
+$var wire 20 A in2 [19:0] $end
+$var wire 20 B out [19:0] $end
+$var wire 20 C in1 [19:0] $end
+$var parameter 32 D FW $end
+$var parameter 32 E IW $end
+$upscope $end
+$scope module add_inst_add0_term2 $end
+$var wire 20 F in2 [19:0] $end
+$var wire 20 G out [19:0] $end
+$var wire 20 H in1 [19:0] $end
+$var parameter 32 I FW $end
+$var parameter 32 J IW $end
+$upscope $end
+$scope module add_inst_add0_term3 $end
+$var wire 20 K in2 [19:0] $end
+$var wire 20 L out [19:0] $end
+$var wire 20 M in1 [19:0] $end
+$var parameter 32 N FW $end
+$var parameter 32 O IW $end
+$upscope $end
+$scope module add_inst_add0_term4 $end
+$var wire 20 P in2 [19:0] $end
+$var wire 20 Q out [19:0] $end
+$var wire 20 R in1 [19:0] $end
+$var parameter 32 S FW $end
+$var parameter 32 T IW $end
+$upscope $end
+$scope module add_inst_add0_term5 $end
+$var wire 20 U in2 [19:0] $end
+$var wire 20 V out [19:0] $end
+$var wire 20 W in1 [19:0] $end
+$var parameter 32 X FW $end
+$var parameter 32 Y IW $end
+$upscope $end
+$scope module add_inst_add_bias0 $end
+$var wire 20 Z in1 [19:0] $end
+$var wire 20 [ in2 [19:0] $end
+$var wire 20 \ out [19:0] $end
+$var parameter 32 ] FW $end
+$var parameter 32 ^ IW $end
+$upscope $end
+$scope module mult_inst_mul0_term0 $end
+$var wire 20 _ in1 [19:0] $end
+$var wire 20 ` in2 [19:0] $end
+$var wire 40 a product_full [39:0] $end
+$var wire 20 b out [19:0] $end
+$var parameter 32 c FW $end
+$var parameter 32 d IW $end
+$upscope $end
+$scope module mult_inst_mul0_term1 $end
+$var wire 20 e in1 [19:0] $end
+$var wire 20 f in2 [19:0] $end
+$var wire 40 g product_full [39:0] $end
+$var wire 20 h out [19:0] $end
+$var parameter 32 i FW $end
+$var parameter 32 j IW $end
+$upscope $end
+$scope module mult_inst_mul0_term2 $end
+$var wire 20 k in1 [19:0] $end
+$var wire 20 l in2 [19:0] $end
+$var wire 40 m product_full [39:0] $end
+$var wire 20 n out [19:0] $end
+$var parameter 32 o FW $end
+$var parameter 32 p IW $end
+$upscope $end
+$scope module mult_inst_mul0_term3 $end
+$var wire 20 q in1 [19:0] $end
+$var wire 20 r in2 [19:0] $end
+$var wire 40 s product_full [39:0] $end
+$var wire 20 t out [19:0] $end
+$var parameter 32 u FW $end
+$var parameter 32 v IW $end
+$upscope $end
+$scope module mult_inst_mul0_term4 $end
+$var wire 20 w in1 [19:0] $end
+$var wire 20 x in2 [19:0] $end
+$var wire 40 y product_full [39:0] $end
+$var wire 20 z out [19:0] $end
+$var parameter 32 { FW $end
+$var parameter 32 | IW $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1000 |
+b1100 {
+b1000 v
+b1100 u
+b1000 p
+b1100 o
+b1000 j
+b1100 i
+b1000 d
+b1100 c
+b1000 ^
+b1100 ]
+b1000 Y
+b1100 X
+b1000 T
+b1100 S
+b1000 O
+b1100 N
+b1000 J
+b1100 I
+b1000 E
+b1100 D
+$end
+#0
+$dumpvars
+b0xxxxxxxxxxxxxxxx z
+bx y
+b111110 x
+bx w
+b0xxxxxxxxxxxxxxxx t
+bx s
+b111101 r
+bx q
+b0xxxxxxxxxxxxxxxx n
+bx m
+b110011111000 l
+bx k
+b0xxxxxxxxxxxxxxxx h
+bx g
+b11110101011 f
+bx e
+b0xxxxxxxxxxxxxxxx b
+bx a
+b101111000 `
+bx _
+bx \
+b100110101000 [
+bx Z
+b0xxxxxxxxxxxxxxxx W
+bx V
+bx U
+b0xxxxxxxxxxxxxxxx R
+bx Q
+bx P
+b0xxxxxxxxxxxxxxxx M
+bx L
+bx K
+b0xxxxxxxxxxxxxxxx H
+bx G
+bx F
+b0xxxxxxxxxxxxxxxx C
+bx B
+b0 A
+bx @
+bx ?
+bx >
+bx =
+bx <
+bx ;
+b0xxxxxxxxxxxxxxxx :
+b0xxxxxxxxxxxxxxxx 9
+b0xxxxxxxxxxxxxxxx 8
+b0xxxxxxxxxxxxxxxx 7
+b0xxxxxxxxxxxxxxxx 6
+bx 5
+bx 4
+bx 3
+bx 2
+bx 1
+bx 0
+b0 /
+bx .
+bx -
+bx ,
+bx +
+bx *
+bx )
+bx (
+b10000000000000000000000000000011 '
+bx &
+bx %
+bx $
+bx #
+bx "
+bx !
+$end
+#2000
+b1010011011010 !
+b1010011011010 -
+b1010011011010 .
+b1010011011010 5
+b1010011011010 ;
+b1010011011010 \
+b101100110010 <
+b101100110010 V
+b101100110010 Z
+b11101 6
+b11101 W
+b11101 z
+b101100010101 =
+b101100010101 Q
+b101100010101 U
+b1110 7
+b1110 R
+b1110 t
+b101100000111 >
+b101100000111 L
+b101100000111 P
+b100001000011 8
+b100001000011 M
+b100001000011 n
+b1011000100 ?
+b1011000100 G
+b1011000100 K
+b1000001010 9
+b1000001010 H
+b1000001010 h
+b10111010 @
+b10111010 B
+b10111010 F
+b10111010 :
+b10111010 C
+b10111010 b
+b11101010101011100 y
+b11110010010 &
+b11110010010 ,
+b11110010010 4
+b11110010010 w
+b1110110010011101 s
+b1111100001 %
+b1111100001 +
+b1111100001 3
+b1111100001 q
+b100001000011100001110000 m
+b101000110010 $
+b101000110010 *
+b101000110010 2
+b101000110010 k
+b1000001010011000010110 g
+b10001000010 #
+b10001000010 )
+b10001000010 1
+b10001000010 e
+b10111010111111011000 a
+b11111110101 "
+b11111110101 (
+b11111110101 0
+b11111110101 _
+#102000

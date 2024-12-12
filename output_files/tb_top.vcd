@@ -1,0 +1,224 @@
+$date
+	Wed Dec 11 12:13:38 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_top $end
+$var wire 20 ! out0 [19:0] $end
+$var reg 8 " in0 [7:0] $end
+$var reg 8 # in1 [7:0] $end
+$var reg 8 $ in2 [7:0] $end
+$var reg 8 % in3 [7:0] $end
+$var reg 8 & in4 [7:0] $end
+$var integer 32 ' file [31:0] $end
+$scope module dut $end
+$var wire 8 ( in0 [7:0] $end
+$var wire 8 ) in1 [7:0] $end
+$var wire 8 * in2 [7:0] $end
+$var wire 8 + in3 [7:0] $end
+$var wire 8 , in4 [7:0] $end
+$var wire 20 - out0 [19:0] $end
+$var wire 20 . layer_3_out_0 [19:0] $end
+$var wire 21 / layer_2_out_0 [20:0] $end
+$var wire 17 0 layer_1_out_2 [16:0] $end
+$var wire 17 1 layer_1_out_1 [16:0] $end
+$var wire 17 2 layer_1_out_0 [16:0] $end
+$var wire 13 3 layer_0_out_4 [12:0] $end
+$var wire 13 4 layer_0_out_3 [12:0] $end
+$var wire 13 5 layer_0_out_2 [12:0] $end
+$var wire 13 6 layer_0_out_1 [12:0] $end
+$var wire 12 7 layer_0_out_0 [11:0] $end
+$scope module layer_0 $end
+$var wire 8 8 in0 [7:0] $end
+$var wire 8 9 in1 [7:0] $end
+$var wire 8 : in2 [7:0] $end
+$var wire 8 ; in3 [7:0] $end
+$var wire 8 < in4 [7:0] $end
+$var wire 12 = out0 [11:0] $end
+$var wire 13 > out1 [12:0] $end
+$var wire 13 ? out2 [12:0] $end
+$var wire 13 @ out3 [12:0] $end
+$var wire 13 A out4 [12:0] $end
+$var reg 12 B add0 [11:0] $end
+$var reg 13 C add1 [12:0] $end
+$var reg 13 D add2 [12:0] $end
+$var reg 13 E add3 [12:0] $end
+$var reg 13 F add4 [12:0] $end
+$var reg 12 G mul0 [11:0] $end
+$var reg 13 H mul1 [12:0] $end
+$var reg 13 I mul2 [12:0] $end
+$var reg 13 J mul3 [12:0] $end
+$var reg 13 K mul4 [12:0] $end
+$upscope $end
+$scope module layer_1 $end
+$var wire 12 L in0 [11:0] $end
+$var wire 13 M in1 [12:0] $end
+$var wire 13 N in2 [12:0] $end
+$var wire 13 O in3 [12:0] $end
+$var wire 13 P in4 [12:0] $end
+$var wire 17 Q out0 [16:0] $end
+$var wire 17 R out1 [16:0] $end
+$var wire 17 S out2 [16:0] $end
+$var reg 17 T add0 [16:0] $end
+$var reg 17 U add1 [16:0] $end
+$var reg 17 V add2 [16:0] $end
+$var reg 17 W mul0 [16:0] $end
+$var reg 17 X mul1 [16:0] $end
+$var reg 17 Y mul2 [16:0] $end
+$upscope $end
+$scope module layer_2 $end
+$var wire 17 Z in0 [16:0] $end
+$var wire 17 [ in1 [16:0] $end
+$var wire 17 \ in2 [16:0] $end
+$var wire 21 ] out0 [20:0] $end
+$var reg 21 ^ add0 [20:0] $end
+$var reg 21 _ mul0 [20:0] $end
+$upscope $end
+$scope module layer_3 $end
+$var wire 21 ` in0 [20:0] $end
+$var reg 20 a out0 [19:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx a
+bx `
+bx _
+bx ^
+bx ]
+bx \
+bx [
+bx Z
+bx Y
+bx X
+bx W
+bx V
+bx U
+bx T
+bx S
+bx R
+bx Q
+bx P
+bx O
+bx N
+bx M
+bx L
+bx K
+bx J
+bx I
+bx H
+bx G
+bx F
+bx E
+bx D
+bx C
+bx B
+bx A
+bx @
+bx ?
+bx >
+bx =
+bx <
+bx ;
+bx :
+bx 9
+bx 8
+bx 7
+bx 6
+bx 5
+bx 4
+bx 3
+bx 2
+bx 1
+bx 0
+bx /
+bx .
+bx -
+bx ,
+bx +
+bx *
+bx )
+bx (
+b10000000000000000000000000000011 '
+bx &
+bx %
+bx $
+bx #
+bx "
+bx !
+$end
+#2000
+b10100001100101 !
+b10100001100101 -
+b10100001100101 .
+b10100001100101 a
+b10100001100101 /
+b10100001100101 ]
+b10100001100101 `
+b10100001100101 ^
+b10100001100101 _
+b1011000101 0
+b1011000101 S
+b1011000101 \
+b1011000101 V
+b1010111100 Y
+b1011100000 1
+b1011100000 R
+b1011100000 [
+b1011100000 U
+b1011010111 X
+b1010011011 2
+b1010011011 Q
+b1010011011 Z
+b1010011011 T
+b1010010010 W
+b100001 3
+b100001 A
+b100001 P
+b100001 F
+b111110 4
+b111110 @
+b111110 O
+b111110 E
+b100100 5
+b100100 ?
+b100100 N
+b100100 D
+b101111 6
+b101111 >
+b101111 M
+b101111 C
+b100111 7
+b100111 =
+b100111 L
+b100111 B
+b11011 K
+b110110 J
+b100011 I
+b101000 H
+b11111 G
+b1 &
+b1 ,
+b1 <
+b10 %
+b10 +
+b10 ;
+b100 $
+b100 *
+b100 :
+b0 #
+b0 )
+b0 9
+b10 "
+b10 (
+b10 8
+#102000
