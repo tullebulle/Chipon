@@ -9,6 +9,9 @@ iverilog -o output_files/out.vvp output_files/test_tb.v output_files/test.v
 
 vvp output_files/out.vvp
 
+# gtkwave output_files/tb_top.vcd # uncomment to view waveform
+
+
 python testing/test1.py
 
 echo "\n"
